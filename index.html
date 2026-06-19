@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Professional Portfolio of Anuja Dixit - Data Analytics, Generative AI, and Cloud Solutions specialist. Explore my projects, certifications, and experience.">
+  <title>Anuja Dixit | Data Analyst</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background Decorative Glowing Blobs -->
+  <div class="bg-decorations">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+  </div>
+
+  <!-- HEADER & NAVIGATION -->
+  <header>
+    <div class="container nav-container">
+      <a href="#home" class="logo">
+        ANUJA<span class="accent-text">DIXIT</span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-links">
+        <a href="#home" class="nav-item active">Home</a>
+        <a href="#about" class="nav-item">About</a>
+        <a href="#experience" class="nav-item">Experience</a>
+        <a href="#projects" class="nav-item">Projects</a>
+        <a href="#skills" class="nav-item">Skills</a>
+        <a href="#education" class="nav-item">Education</a>
+        <a href="#contact" class="nav-item">Contact</a>
+      </nav>
+
+      <div class="right-controls">
+        <!-- Theme Toggle Button -->
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Theme">
+          <!-- Moon Icon (Dark Mode active) -->
+          <svg class="moon-icon" viewBox="0 0 24 24">
+            <path d="M12.3 22h-.1c-5.5 0-10-4.5-10-10 0-4.8 3.5-8.9 8.2-9.8.5-.1 1 .3.9.8-.1.5-.6.8-1.1.7-3.8.7-6.6 4.1-6.6 8 0 4.4 3.6 8 8 8 3.4 0 6.4-2.1 7.5-5.3.2-.5.7-.7 1.2-.5.5.2.7.7.5 1.2-1.5 3.9-5.1 6.5-9.3 6.5z"/>
+          </svg>
+          <!-- Sun Icon (Light Mode active) -->
+          <svg class="sun-icon" viewBox="0 0 24 24">
+            <path d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zm0 2c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0-5c.55 0 1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1v1c0 .55.45 1 1 1zm0 16c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1s1-.45 1-1v-1c0-.55-.45-1-1-1zm8-8c0-.55-.45-1-1-1h-1c-.55 0-1 .45-1 1s.45 1 1 1h1c.55 0 1-.45 1-1zM6 12c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1s.45 1 1 1h1c.55 0 1-.45 1-1zm10.778-5.364c.39-.39.39-1.024 0-1.414s-1.024-.39-1.414 0l-.707.707c-.39.39-.39 1.024 0 1.414.39.39 1.024.39 1.414 0l.707-.707zm-9.9 9.9c.39-.39.39-1.024 0-1.414s-1.024-.39-1.414 0l-.707.707c-.39.39-.39 1.024 0 1.414.39.39 1.024.39 1.414 0l.707-.707zm9.9 0c-.39-.39-1.024-.39-1.414 0s-.39 1.024 0 1.414l.707.707c.39.39 1.024.39 1.414 0s.39-1.024 0-1.414l-.707-.707zm-9.9-9.9c-.39-.39-1.024-.39-1.414 0s-.39 1.024 0 1.414l.707.707c.39.39 1.024.39 1.414 0s.39-1.024 0-1.414l-.707-.707z"/>
+          </svg>
+        </button>
+
+        <!-- Social Icons in Header -->
+        <div class="social-links" style="margin-left: 0.5rem;">
+          <a href="https://www.linkedin.com/in/anujadixit17dev/" target="_blank" class="social-icon" aria-label="LinkedIn" style="width: 38px; height: 38px;">
+            <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.779-1.75-1.75s.784-1.75 1.75-1.75 1.75.779 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+          </a>
+          <a href="https://github.com/anujadixitgit" target="_blank" class="social-icon" aria-label="GitHub" style="width: 38px; height: 38px;">
+            <svg viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+          </a>
+        </div>
+
+        <!-- Hamburger Icon (Mobile) -->
+        <button class="hamburger" aria-label="Toggle Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content reveal active">
+          <p class="hero-subtitle">Hi, I am</p>
+          <h1 class="hero-title">ANUJA DIXIT</h1>
+          <p class="hero-tagline accent-text">Data Analyst</p>
+          <p class="hero-desc">
+           I transform raw data into meaningful insights through analytics, visualization, and storytelling. Passionate about solving business problems with data, I build end-to-end projects that uncover trends, optimize decision-making, and drive measurable impact.</p>
+          <div class="hero-ctas">
+            <a href="#projects" class="btn btn-primary">
+              View My Work
+              <svg style="width: 18px; height: 18px; fill: currentColor;" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+          </div>
+        </div>
+
+        <!-- Animated Data & AI Artwork -->
+        <div class="hero-artwork reveal active">
+          <svg class="artwork-canvas" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="cyan-indigo" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#06b6d4" />
+                <stop offset="100%" stop-color="#6366f1" />
+              </linearGradient>
+              <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+                <feGaussianBlur stdDeviation="8" result="blur" />
+                <feComposite in="SourceGraphic" in2="blur" operator="over" />
+              </filter>
+            </defs>
+            
+            <!-- Grid Background Lines -->
+            <path d="M50 50 H350 M50 150 H350 M50 250 H350 M50 350 H350" stroke="var(--card-border)" stroke-width="1" />
+            <path d="M50 50 V350 M150 50 V350 M250 50 V350 M350 50 V350" stroke="var(--card-border)" stroke-width="1" />
+
+            <!-- Core Floating Neural Cloud Nodes -->
+            <path d="M200 120 L270 200 L200 280 L130 200 Z" stroke="url(#cyan-indigo)" stroke-width="2" fill="none" filter="url(#glow)" />
+            <circle cx="200" cy="120" r="10" fill="#06b6d4" />
+            <circle cx="270" cy="200" r="10" fill="#6366f1" />
+            <circle cx="200" cy="280" r="10" fill="#06b6d4" />
+            <circle cx="130" cy="200" r="10" fill="#6366f1" />
+
+            <!-- Inner Analytics Bar Graph Graphic -->
+            <rect x="180" y="210" width="12" height="40" rx="3" fill="var(--text-secondary)" opacity="0.6"/>
+            <rect x="200" y="180" width="12" height="70" rx="3" fill="url(#cyan-indigo)"/>
+            <rect x="220" y="200" width="12" height="50" rx="3" fill="var(--text-secondary)" opacity="0.6"/>
+
+            <!-- Orbiting Data Waves -->
+            <path d="M80 300 Q 140 230, 200 300 T 320 300" stroke="#06b6d4" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.4" />
+            <path d="M80 320 Q 140 260, 200 320 T 320 320" stroke="#6366f1" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.3" />
+
+            <!-- Interactive Core Ring -->
+            <circle cx="200" cy="200" r="110" stroke="url(#cyan-indigo)" stroke-width="1.5" stroke-dasharray="10, 15" fill="none" />
+            <circle cx="200" cy="200" r="130" stroke="var(--card-border)" stroke-width="1" fill="none" />
+
+            <!-- Floating Data Bytes (dots) -->
+            <circle cx="90" cy="100" r="4" fill="#06b6d4" />
+            <circle cx="310" cy="90" r="5" fill="#6366f1" />
+            <circle cx="320" cy="270" r="3" fill="#06b6d4" />
+            <circle cx="80" cy="220" r="6" fill="#6366f1" />
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title reveal">About Me</h2>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p class="about-summary">
+  Hello! I'm Anuja Dixit, an aspiring Data Analyst with a passion for turning data into meaningful insights and actionable decisions.
+
+My journey into analytics began with a curiosity to understand the stories hidden within data. Since then, I've been building my expertise in SQL, Python, Power BI, and Excel through hands-on projects involving data cleaning, exploratory data analysis, visualization, and business intelligence reporting.</p>
+            <p class="about-summary">
+              I enjoy solving complex problems, uncovering patterns, and presenting insights in a way that helps businesses make informed decisions. Whether it's analyzing customer behavior, building interactive dashboards, or exploring large datasets, I'm constantly looking for opportunities to learn and grow as a data professional.</p>
+            <p class="about-summary">
+           Beyond analytics, I have a creative side that I nurture through photography and a curious mind that I fuel through reading. Photography has taught me to pay attention to details and perspectives, while reading continuously expands my understanding of the world and strengthens my problem-solving mindset.</p>
+          </div>
+
+          <!-- Highlight Cards / Visual Quick Stats -->
+          <div class="about-cards-grid reveal">
+            <div class="stat-card">
+              <div class="stat-num">70%</div>
+              <div class="stat-label">Reduction in manual reporting</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-num">50%</div>
+              <div class="stat-label">SQL query speedup</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-num">3,900+</div>
+              <div class="stat-label">Purchases Analyzed</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-num">8.29</div>
+              <div class="stat-label">Master's CGPA</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section id="experience" class="section" style="background-color: var(--bg-secondary);">
+      <div class="container">
+        <h2 class="section-title reveal">Professional Experience</h2>
+        
+        <div class="timeline">
+          <!-- Timeline Item 1 -->
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <span class="timeline-date">June 2026 – Present</span>
+              <h3 class="timeline-role">IBM PBEL Virtual Training cum Internship Program</h3>
+              <p class="timeline-company">IBM & NASSCOM</p>
+              <ul class="timeline-achievements">
+                <li> Currently participating in the IBM PBEL Virtual Training cum Internship Program in partnership with NASSCOM, gaining practical exposure to industry-relevant technologies, business problem-solving methodologies, and professional workplace practices.</li>
+                <li>The program combines structured learning with hands-on projects, enabling me to apply analytical thinking and technical skills to real-world scenarios. Through this experience, I am strengthening my understanding of data analytics, business intelligence, and data-driven decision-making while developing industry-ready skills in collaboration, communication, and project execution.</li>
+              </ul>
+            </div>
+          </div>
+
+            <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <span class="timeline-date">April – June 2026</span>
+              <h3 class="timeline-role">Forward Learner Program - Training</h3>
+              <p class="timeline-company">McKinsey & Company</p>
+              <ul class="timeline-achievements">
+                <li>Selected for McKinsey & Company’s Forward Program, a structured learning initiative focused on developing practical workplace skills.</li>
+                 <li>Built strong problem-solving and analytical thinking through case-based scenarios,and applied structured frameworks to approach real-world business challenges.</li>
+                <li>This experience reflects hands-on learning and skill development aligned with consulting methodologies.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Timeline Item 2 -->
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <span class="timeline-date">Feb – April 2026</span>
+              <h3 class="timeline-role">Salesforce Developer Trainee</h3>
+              <p class="timeline-company">Cloud Analogy</p>
+              <ul class="timeline-achievements">
+                <li>Trained in custom Salesforce configuration, developing custom objects, validation rules, and automation triggers.</li>
+                <li>Engineered workflows and automated processes using Salesforce Flows, improving CRM administrative tracking efficiency.</li>
+                <li>Designed custom user access controls and configured robust system security schemas.</li>
+              </ul>
+            </div>
+          </div>
+
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title reveal">Featured Projects</h2>
+        
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="glass-card project-card reveal">
+            <h3 style="font-size: 1.4rem; margin-bottom: 0.5rem;">Customer Segmentation & Revenue Analytics</h3>
+            <p style="font-size: 0.95rem;">
+              Analyzed and modeled customer segments and transaction patterns for 3,900+ purchases to isolate high-value user clusters and optimize marketing workflows.
+            </p>
+            
+            <div class="project-metrics">
+              <div class="metric-box">
+                <div class="metric-val">70%</div>
+                <div class="metric-lbl">Manual Effort Saved</div>
+              </div>
+              <div class="metric-box">
+                <div class="metric-val">3.9K</div>
+                <div class="metric-lbl">Transactions Analyzed</div>
+              </div>
+            </div>
+
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">Pandas</span>
+              <span class="tag">Power BI</span>
+              <span class="tag">Data Analytics</span>
+            </div>
+
+            <div class="project-links">
+              <a href="https://github.com/anujadixitgit/Customer_Behavior_Analysis" target="_blank" class="project-link">
+                <svg viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                GitHub Code
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="glass-card project-card reveal">
+            <h3 style="font-size: 1.4rem; margin-bottom: 0.5rem;">Vendor Performance Analysis</h3>
+            <p style="font-size: 0.95rem;">
+              Developed custom SQL analytics structures to grade and segment global supply chains. Optimized complex database queries and automated ranking indices.
+            </p>
+            
+            <div class="project-metrics">
+              <div class="metric-box">
+                <div class="metric-val">50%</div>
+                <div class="metric-lbl">SQL Query Speedup</div>
+              </div>
+              <div class="metric-box">
+                <div class="metric-val">Ranked</div>
+                <div class="metric-lbl">Vendor Indices</div>
+              </div>
+            </div>
+
+            <div class="project-tags">
+              <span class="tag">SQL</span>
+              <span class="tag">Python</span>
+              <span class="tag">Data Analysis</span>
+              <span class="tag">Optimization</span>
+            </div>
+
+            <div class="project-links">
+              <a href="https://github.com/anujadixitgit/Vendor_Performance_Analysis" target="_blank" class="project-link">
+                <svg viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                GitHub Code
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="section" style="background-color: var(--bg-secondary);">
+      <div class="container">
+        <h2 class="section-title reveal">Skills & Certifications</h2>
+        
+        <div class="skills-grid-minimal reveal">
+          <!-- Column 1: Technical Skills -->
+          <div class="skills-col">
+            <div class="skill-group-minimal">
+              <h4>Data Analytics & BI</h4>
+              <p>Power BI, Excel, Dashboard Development, KPI Reporting, Data Visualization</p>
+            </div>
+            
+            <div class="skill-group-minimal">
+              <h4>Data Management</h4>
+              <p>SQL, Python, Data Cleaning, Exploratory Data Analysis, Statistical Analysis</p>
+            </div>
+            
+            <div class="skill-group-minimal">
+              <h4>Automation & AI</h4>
+              <p>n8n, Workflow Automation, Generative AI, Prompt Engineering, Claude Code</p>
+            </div>
+            
+            <div class="skill-group-minimal">
+              <h4>Platforms & Tools</h4>
+              <p>Salesforce CRM, Power Query, Data Structures & Algorithms</p>
+            </div>
+
+            <div class="skill-group-minimal">
+              
+            </div>
+          </div>
+
+          <!-- Column 2: Certifications -->
+          <div class="certs-col">
+            <h3 class="minimal-sub-title">Certifications</h3>
+            <ul class="certs-list-minimal">
+              <li>
+                <span class="cert-name-minimal">Claude 101</span>
+                <span class="cert-org-minimal">Anthropic Academy</span>
+              </li>
+    
+                    <li>
+                <span class="cert-name-minimal">Introduction to SQL</span>
+                <span class="cert-org-minimal">Simplilearn</span>
+              </li>
+                     <li>
+                <span class="cert-name-minimal">Introduction to PowerBI</span>
+                <span class="cert-org-minimal">Simplilearn</span>
+              </li>
+              <li>
+                <span class="cert-name-minimal">n8n Automation</span>
+                <span class="cert-org-minimal">Udemy Academy</span>
+              </li>
+            
+              <li>
+                <span class="cert-name-minimal">Digital Marketing Fundamentals</span>
+                <span class="cert-org-minimal">Google Digital Garage</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section id="education" class="section">
+      <div class="container">
+        <h2 class="section-title reveal">Education</h2>
+        
+        <div class="education-grid">
+          <!-- Degree 1 -->
+          <div class="glass-card edu-card reveal">
+            <div class="edu-meta">
+              <span class="edu-date">Aug 2024 – June 2026</span>
+              <span class="edu-cgpa">CGPA: 8.29</span>
+            </div>
+            <h3>Master of Computer Applications</h3>
+            <p class="edu-univ">Dr. A.P.J. Abdul Kalam Technical University</p>
+            <p style="font-size: 0.95rem; margin-top: 0.5rem;">
+             I developed a strong foundation in computer science, data management, and analytical problem-solving. The program provided comprehensive exposure to database systems, software development, statistical analysis, and business intelligence concepts, enabling me to apply technology-driven solutions to real-world business challenges.</p>
+          <p>
+<b>Key Areas of Study: Database Management Systems (DBMS),  Data Analytics and Business Intelligence, Data Structures and Algorithms, Statistical Methods, Data Visualization and Reporting.</b></p>
+            </div>
+
+          <!-- Degree 2 -->
+          <div class="glass-card edu-card reveal">
+            <div class="edu-meta">
+              <span class="edu-date">Aug 2021 – July 2024</span>
+              <span class="edu-cgpa">CGPA: 7.63</span>
+            </div>
+            <h3>Bachelor of Science in Computer Application</h3>
+            <p class="edu-univ">Chattrapati Shahu Ji Maharaj University, Kanpur</p>
+            <p style="font-size: 0.95rem; margin-top: 0.5rem;">
+            My Bachelor's degree laid the foundation for my analytical and problem-solving abilities by providing a broad understanding of quantitative methods, logical reasoning, and business fundamentals. Through coursework and academic projects, I developed critical thinking skills, attention to detail, and the ability to analyze complex information from multiple perspectives.</p>
+            
+            <p><b>Key Areas of Study: Quantitative Analysis, Business Fundamentals, Research Methodology, Critical Thinking, Communication Skills, Problem Solving, and Statistical Concepts.</b></p>          
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section" style="background-color: var(--bg-secondary);">
+      <div class="container">
+        <h2 class="section-title reveal">Get In Touch</h2>
+        
+        <div class="contact-grid">
+          <!-- Left side contact links -->
+          <div class="contact-info reveal">
+            <p style="font-size: 1.1rem; margin-bottom: 1rem;">
+              Have an exciting project, data challenge, or job opportunity you'd like to discuss? Drop me a message or connect with me via social media!
+            </p>
+            
+            <div class="contact-details">
+              <!-- Email -->
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                </div>
+                <div class="contact-text">
+                  <h4>Email</h4>
+                  <a href="mailto:anujadixitwork@gmail.com">anujadixitwork@gmail.com</a>
+                </div>
+              </div>
+
+              <!-- Location -->
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                </div>
+                <div class="contact-text">
+                  <h4>Location</h4>
+                  <p>Greater Noida, Uttar Pradesh, India</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Resume Download Button & Print instruction -->
+            <div style="margin-top: 1rem; display: flex; flex-direction: column; gap: 0.75rem; align-items: flex-start;">
+              <a href="#" onclick="window.print(); return false;" class="btn btn-primary">
+                <svg style="width: 18px; height: 18px; fill: currentColor;" viewBox="0 0 24 24"><path d="M19 12v7H5v-7H3v7c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-7h-2zm-6 .67l2.59-2.58L17 11.5l-5 5-5-5 1.41-1.41L11 12.67V3h2v9.67z"/></svg>
+                Download Resume (Print PDF)
+              </a>
+              <span style="font-size: 0.85rem; color: var(--text-muted); font-style: italic;">
+                Tip: The download button generates a clean, single-page professional resume directly using custom print styles!
+              </span>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="glass-card reveal">
+            <form id="portfolio-contact-form" class="contact-form">
+              <div class="form-group-row">
+                <div class="form-group">
+                  <label for="form-name">Your Name</label>
+                  <input type="text" id="form-name" name="name" class="form-input" placeholder="John Doe" required>
+                </div>
+                <div class="form-group">
+                  <label for="form-email">Email Address</label>
+                  <input type="email" id="form-email" name="email" class="form-input" placeholder="john@example.com" required>
+                </div>
+              </div>
+              
+              <div class="form-group">
+                <label for="form-subject">Subject</label>
+                <input type="text" id="form-subject" name="subject" class="form-input" placeholder="Project Inquiry" required>
+              </div>
+
+              <div class="form-group">
+                <label for="form-message">Message</label>
+                <textarea id="form-message" name="message" class="form-input" placeholder="Hi Anuja, I would love to connect about..." required></textarea>
+              </div>
+
+              <!-- Toast container for form feedback -->
+              <div id="form-feedback" class="form-feedback"></div>
+
+              <button type="submit" class="btn btn-primary" style="align-self: flex-start; width: auto; padding-left: 2.5rem; padding-right: 2.5rem;">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-container">
+      <a href="#home" class="logo">
+        ANUJA<span class="accent-text">DIXIT</span>
+      </a>
+      
+      <nav class="footer-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+      </nav>
+
+      <!-- Footer Social Icons -->
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/anujadixit17dev/" target="_blank" class="social-icon" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.779-1.75-1.75s.784-1.75 1.75-1.75 1.75.779 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+        </a>
+        <a href="https://github.com/anujadixitgit" target="_blank" class="social-icon" aria-label="GitHub">
+          <svg viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+        </a>
+      </div>
+
+      <p class="footer-copy">
+        &copy; 2026 Anuja Dixit. All rights reserved. Designed with precision & accessibility.
+      </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
